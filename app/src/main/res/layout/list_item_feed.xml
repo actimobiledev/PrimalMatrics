@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clMain"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_login_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_inflaction"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reflection Title"
+            android:paddingLeft="@dimen/edittext_padding"
+            android:paddingTop="@dimen/edittext_padding"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_large"
+            android:textColor="@color/text_color_red"
+            android:id="@+id/tvTitle"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Posted on : "
+            android:paddingLeft="@dimen/edittext_padding"
+            android:paddingTop="@dimen/edittext_padding"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold"
+            android:textColor="@color/bg_screen3"
+            android:id="@+id/tvPostedOn"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search for 'recursion' on Google and you will get stuck in a infinite loop much like recursion."
+            android:paddingLeft="@dimen/edittext_padding"
+            android:paddingTop="@dimen/edittext_padding"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold"
+            android:textColor="@color/text_color_yellow"
+            android:id="@+id/tvDescription"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event On : "
+            android:paddingLeft="@dimen/edittext_padding"
+            android:paddingTop="@dimen/edittext_padding"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold"
+            android:textColor="@color/bg_screen3"
+            android:layout_marginTop="@dimen/activity_margin"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mon, 27"
+                    android:textColor="@color/text_color_red"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_size_27"
+                    android:id="@+id/tvDay"
+                    android:layout_gravity="center"
+                    android:paddingRight="@dimen/activity_margin_small"
+                    android:layout_marginLeft="@dimen/activity_margin_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/activity_margin">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="May, 2020"
+                    android:textColor="@color/text_color_red"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_size_small"
+                    android:id="@+id/tvYear" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="05:45 PM"
+                    android:textColor="@color/text_color_red"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_size_small"
+                    android:id="@+id/tvTime" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

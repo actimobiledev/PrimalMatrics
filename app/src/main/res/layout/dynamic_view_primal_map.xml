@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_light_purple"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Goal"
+            android:paddingLeft="@dimen/edittext_padding"
+            android:paddingTop="@dimen/edittext_padding"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="@color/text_color_red"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/edittext_padding"
+            android:id="@+id/etGoal"
+            android:enabled="false"
+            android:textSize="@dimen/activity_margin_small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Habit"
+            android:paddingLeft="@dimen/edittext_padding"
+            android:paddingTop="@dimen/edittext_padding"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="@color/text_color_red"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/edittext_padding"
+            android:id="@+id/etHabit"
+            android:enabled="false"
+            android:textSize="@dimen/activity_margin_small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weighting %"
+            android:paddingLeft="@dimen/edittext_padding"
+            android:paddingTop="@dimen/edittext_padding"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="@color/text_color_red"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/edittext_padding"
+            android:id="@+id/etWieght"
+            android:enabled="false"
+            android:textSize="@dimen/activity_margin_small"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_login_background"
+            android:layout_margin="@dimen/activity_margin_small">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Target"
+                android:textColor="@color/text_color_red"
+                android:paddingLeft="@dimen/edittext_padding"
+                />
+
+            <EditText
+                android:textSize="@dimen/activity_margin_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/edittext_padding"
+                android:background="@color/color_light_purple"
+                android:lines="4"
+                android:layout_margin="@dimen/activity_margin_small"
+                android:id="@+id/etTarget"
+                android:enabled="false"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
